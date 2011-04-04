@@ -1,0 +1,27 @@
+COPYING.txt
+inc/Module/Install.pm
+inc/Module/Install/Base.pm
+inc/Module/Install/Can.pm
+inc/Module/Install/Fetch.pm
+inc/Module/Install/Makefile.pm
+inc/Module/Install/Metadata.pm
+inc/Module/Install/Win32.pm
+inc/Module/Install/WriteAll.pm
+lib/XML/XBMC.pm
+lib/XML/XBMC/AudioDetails.pm
+lib/XML/XBMC/FileInfo.pm
+lib/XML/XBMC/Movie.pm
+lib/XML/XBMC/MovieRole.pm
+lib/XML/XBMC/Node.pm
+lib/XML/XBMC/StreamDetails.pm
+lib/XML/XBMC/SubDetails.pm
+lib/XML/XBMC/VideoDetails.pm
+Makefile.PL
+MANIFEST			This list of files
+MANIFEST.SKIP
+META.yml
+SIGNATURE
+t/00-load.t
+t/01-wiki-example.t
+t/01-wiki-example/wiki-example.xml
+t/XMLTests.pm

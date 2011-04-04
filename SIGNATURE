@@ -1,0 +1,53 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.61.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+SHA1 5ebf20e77850b956f9f03833932a7005ba59f0d9 COPYING.txt
+SHA1 e60bce37a16522a3cdc472a11985477f35e95324 MANIFEST
+SHA1 8c4f7e69a1a7a19924c11ef455a988807b0e214c MANIFEST.SKIP
+SHA1 a4cf66e9e358d2a359a7a0e951bf027d709be6f9 META.yml
+SHA1 1871e3f8a80990d6e7fd2b1c8e164dc6941c6cb0 Makefile.PL
+SHA1 171ca38c5eedbe92d2f5eb1e14e1725631960bab inc/Module/Install.pm
+SHA1 6daffe6319ca8108cc3b0b0eaca26c67121e15de inc/Module/Install/Base.pm
+SHA1 4fba5930001ca62721cd7b2790f5cbe888e160f6 inc/Module/Install/Can.pm
+SHA1 9d374a00157befa504e6db14d83663875223e1ee inc/Module/Install/Fetch.pm
+SHA1 d170b3621ae4509969c61677aef41534dfa01a1e inc/Module/Install/Makefile.pm
+SHA1 ea2c6af29c2339be6fb78edf0924e6951eb40280 inc/Module/Install/Metadata.pm
+SHA1 121a3c95ebbbaea7b75df3ce7e922da7e6a0060f inc/Module/Install/Win32.pm
+SHA1 d9f0ea716ff81c7ae3fcaaf15cc03fb9bf4f01b1 inc/Module/Install/WriteAll.pm
+SHA1 a925369e8acabc3ba15ce5336383a5a2827195d5 lib/XML/XBMC.pm
+SHA1 a7080af7a1fcbeac1dcb65aa4b756f933e9faab4 lib/XML/XBMC/AudioDetails.pm
+SHA1 e6bd24639020a3a087c6f8b0a08bc993e5f1963d lib/XML/XBMC/FileInfo.pm
+SHA1 ea559376c8b2f27f8bd8e0dcdb3d7bd3699ce18a lib/XML/XBMC/Movie.pm
+SHA1 426632065be2b0cf36344228a67fcd0aa7315174 lib/XML/XBMC/MovieRole.pm
+SHA1 fed7034a94e789098733dc03df252add7ba52191 lib/XML/XBMC/Node.pm
+SHA1 2387662102d3a20444d68858fb48a62326052534 lib/XML/XBMC/StreamDetails.pm
+SHA1 e83d6d32d524e55729df01f8702391e1a19f711d lib/XML/XBMC/SubDetails.pm
+SHA1 251eb3c76af174f2a16cbf75f92edc231178887e lib/XML/XBMC/VideoDetails.pm
+SHA1 e65a536f8b9139e41a7af688ee67b910ad1363e7 t/00-load.t
+SHA1 e6c25590dc3fde6aaa05ed5aa126b658ffab384d t/01-wiki-example.t
+SHA1 57798f287d1e32c0e8382d80c0608ca3fdf8905b t/01-wiki-example/wiki-example.xml
+SHA1 204d19fc72e84733a1fa3abf12a1db5a60eab274 t/XMLTests.pm
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iQEcBAEBCgAGBQJNmXJrAAoJEBdtaL3wGtIoHekIAK0u4OGeR3HW5yPZ7G4YlLiR
+roE6wSaNSkMt9csyZEaAOL2lhimee7wOXleZXLvo8SvNz0TxWuqzY2EcYCrceW8z
+uIVnTrw9H7KTMMVtkgtZUVx6e7eR0Edd8P10uMyO8f1GWozzY/MLsn5nIdoUsYOZ
+ilNUMzK0F4iUZx1U9HpiaSVDrPZanBO9UdV0GXnZqNLl5rTYuA7tnMgldHRFIY1r
+GidplqLx+ldeJ+C2eVuHBnfW4wBVqRhPoh3iRzzFa0gCjR+QuUEhLAi86F/Zk6s1
+QqAZlBzp06GrjpxYafABf9m3Ml4Sy5r2jmKENK5C+yeM8HSrN1lOJKUM8txZAqg=
+=rQx/
+-----END PGP SIGNATURE-----

@@ -1,0 +1,26 @@
+---
+abstract: 'PRANG implementation of XBMC .NFO files'
+author:
+  - 'Sam Vilain <sam@vilain.net>'
+build_requires:
+  ExtUtils::MakeMaker: 6.42
+  XML::Compare: 0.04
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
+distribution_type: module
+generated_by: 'Module::Install version 0.92'
+license: artistic
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: XML-XBMC
+no_index:
+  directory:
+    - inc
+    - t
+requires:
+  Moose: 0.54
+  PRANG: 0.10_01
+resources:
+  license: http://opensource.org/licenses/artistic-license.php
+version: 0.01
